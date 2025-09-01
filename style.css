@@ -1,0 +1,66 @@
+#red{
+
+    border-width: 50px;
+    border-style: solid;
+    border-color:red ;
+    padding-left: 50px;
+    padding-top: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+#gold{
+    border-width: 50px;
+    border-style: dotted;
+    border-color: goldenrod;
+     padding-left: 50px;
+    padding-top: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#green{
+    border-width: 50px ;
+    border-style: double;
+    border-color: green;
+    padding-left: 50px;
+    padding-top: 50px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px; 
+
+}
+
+#blue{
+    
+    border-width: 50px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: blue;
+    padding-left: 50px;
+    padding-top: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+
+}
+
+.sqr{
+    height: 100px;
+    width: 100px;
+}
+
+.sqr1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 40% ;
+    top: 40% ;
+   
+
+}
