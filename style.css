@@ -11,6 +11,11 @@
 
 }
 
+.space{
+    height: 1000px;
+    width: 1000px;
+
+}
 
 #gold{
     border-width: 50px;
@@ -49,6 +54,19 @@
 
 
 }
+#yello{
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color:yellow;
+    padding-left: 50px;
+    padding-top: 50px;
+    position: fixed ;
+    left: 40% ;
+    top:40% ;
+
+
+}
 
 .sqr{
     height: 100px;
@@ -61,6 +79,7 @@
     position: absolute;
     left: 40% ;
     top: 40% ;
+    z-index: 1;
    
 
 }
