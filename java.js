@@ -1,5 +1,13 @@
 console.log('hi . this is first coode in java script');
 
+
+
+for(let a=0 ; a<3 ; a=a+1 ){
+    console.log('hellow') ; // we are going to print "hellow" three 
+}
+
+
+
 let test =20;
 var testt = 19 ;
 const testtt = 18; 
@@ -32,6 +40,7 @@ switch (testtt) {
     default :{ document.getElementById('b').style.backgroundColor='green'  ; }
         break;
 }
+
 
 
 
