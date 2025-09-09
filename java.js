@@ -21,7 +21,17 @@ else
     document.getElementById('a').style.backgroundColor='blue'  ; 
 }
 
+switch (testtt) {
+    case  20 :{document.getElementById('b').style.backgroundColor='blue'  ;  }  
+        break;
+    case  19 :{document.getElementById('b').style.backgroundColor='black'  ;  }  
+        break;
+    case  18 :{document.getElementById('b').style.backgroundColor='red'  ;  }  
+        break;
 
+    default :{ document.getElementById('b').style.backgroundColor='green'  ; }
+        break;
+}
 
 
 
