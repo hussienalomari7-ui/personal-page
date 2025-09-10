@@ -1,15 +1,31 @@
-#a{
-    width: 100px;
-    height: 100px;
+/* تعريف id مع width و height */
+#myBox {
+    width: 200px;
+    height: 150px;
+    margin: 15px auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    font-weight: bold;
 }
-#b{
-    width: 100px;
-    height: 100px;
+
+/* تعريف class مع border و color */
+.bordered-element {
+    border: 3px solid #e74c3c;
+    color: #333;
 }
-#c{
-    width: 100px;
-    height: 100px;
-}
-.h{
-    border: 10px solid rgb(183, 255, 0) ;
+
+.button-group {
+    margin: 20px;
+    text-align: center;
+    display: flex ;
+    justify-content: center ;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+
+
 }
